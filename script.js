@@ -215,9 +215,9 @@ window.addEventListener('load', function() {
             this.ammoInterval = 500;
             this.gameOver = false;
             this.score = 0;
-            this.winningScore = 10;
+            this.winningScore = 25;
             this.gameTime = 0;
-            this.timeLimit = 5000;
+            this.timeLimit = 15000;
             this.speed = 1;
         }
         update(deltaTime) {
